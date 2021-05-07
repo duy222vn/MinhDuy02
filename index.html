@@ -1,0 +1,162 @@
+<style>
+	* {
+	  box-sizing: border-box;
+	}
+	
+	body {
+	  font-family: Arial;
+	  padding: 10px;
+	  background: #ffffff;
+	}
+	
+	/* Header/Blog Title */
+	.header {
+	  padding: 30px;
+	  text-align: center;
+	  background: white;
+	}
+	
+	.header h1 {
+	  font-size: 50px;
+	}
+	
+	/* Style the top navigation bar */
+	.topnav {
+	  overflow: hidden;
+	  background-color: gray;
+	}
+	
+	/* Style the topnav links */
+	.topnav a {
+	  float: left;
+	  display: block;
+	  color: #ce9595;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+	
+	/* Change color on hover */
+	.topnav a:hover {
+	  background-color: wheat
+	  color: black;
+	}
+	
+	/* Create two unequal columns that floats next to each other */
+	/* Left column */
+	.leftcolumn {   
+	  float: left;
+	  width: 75%;
+	}
+	
+	/* Right column */
+	.rightcolumn {
+	  float: left;
+	  width: 25%;
+	  background-color: #c07777;
+	  padding-left: 20px;
+	}
+	
+	/* Fake image */
+	.fakeimg {
+	  background-color: rgb(142, 252, 160);
+	  width: 100%;
+	  padding: 20px;
+	}
+	
+	/* Add a card effect for articles */
+	.card {
+	  background-color:gray;
+	  padding: 20px;
+	  margin-top: 20px;
+	}
+	
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	
+	/* Footer */
+	.footer {
+	padding: 20px;
+	text-align: center;
+	background: peachpuff;
+	margin-top: 20px;
+  }
+	
+	/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 800px) {
+	  .leftcolumn, .rightcolumn {   
+		width: 100%;
+		padding: 0;
+	  }
+	}
+	
+	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+	@media screen and (max-width: 400px) {
+	  .topnav a {
+		float: none;
+		width: 100%;
+	  }
+	}
+	</style>
+	
+
+<body>
+	  <div class="header">
+		  <h1><img src="images/header.jpg" width="20%"></h1>
+  
+		</div>
+		
+		<div class="topnav">
+		  <a style="color: black;" href="login.html">Login</a>
+	      <a style="color: black;" href="staffs.html">Staffs</a>
+	      <a style="color: black;" href="order.html">Order</a>
+		  
+		  <a style="color: black;" href="login.html">Products</a>
+		  <a style="color: black;" href="index.html" style="float:right">Home</a>
+		</div>
+  
+  
+  </head>
+  
+  <div class="alert alert-primary" role="alert">
+	
+  </div>
+
+</body>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+<body>
+
+
+
+
+<div class="card">
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/P20ASB1MdnI?&amp;autoplay=1"></iframe></h1>
+</div>
+
+  
+    <div class="card">
+      <h3 style="color: black;">PRODUCTS</h3>
+      <div class="fakeimg"><p><img src="../steamcdn-a.akamaihd.net/steam/apps/578080/header5471.jpg?t=1592294718" width ="auto"></p></div>
+   
+      <div class="fakeimg"><p><img src="../img.4gamers.com.tw/ckfinder-vn/image2/auto/2020-05/gta%20v-200514-12420960a8.jpg?versionId=NUQgv830ZsPhxQrpr9eZuFPDi7SK9HSn" width ="auto"></p></div>
+      <div class="fakeimg"><p><img src="../image.thanhnien.vn/660/uploaded/game/upload/image/article/2016/07/29/b897e7e09f79ecdcbd8cb987c0ab8f6d.jpg" width ="auto"></p></div>
+    </div>
+    <div class="card">
+      <h3>HDKingK shop</h3>
+      <p>144 Phạm Phú Thứ phường 4 quận 6</p>
+     <p> Hồ Chí Minh.</p> 
+    </div>
+  </div>
+</div>
